@@ -1,11 +1,13 @@
 #include <iostream>
 #include "tela.h"
 #include "mapa1.h"
+#include "personagem.h"
+#include "movimento.h"
+#include "inimigo.h"
 
-int main(int argc, char const *argv[])
+int main()
 {
-	bool close = false;
-
+	
 	Tela tela;
 	tela.config();
 	tela.tela_jogo();
